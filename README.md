@@ -5,7 +5,7 @@ facilities and their market identification codes (MIC).**
 
 ## About
 
-This repo contains the unadjustet, as well as an adjustet, list of all
+This repo contains the unadjustet ~~, as well as an adjustet,~~ list of all
 registered exchanges, trading platforms, regulated or non-regulated markets and
 trade reporting facilities, created, maintained and published by the ISO in ISO
 10383.
@@ -15,7 +15,7 @@ The official site is [https://www.iso20022.org/10383/iso-10383-market-identifier
 ## Usage
 
 There are two main files:
-- /latest.csv - Latest list in CSV format
+- /latest.csv - Latest list in CSV format [Browse](latest.csv) | [Raw](https://raw.githubusercontent.com/GreinaHQ/exchanges/master/latest.csv)
 - ~~/latest-adj.csv - Latest list, adjusted to our own preference in CSV
   format~~
 
