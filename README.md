@@ -5,25 +5,27 @@ facilities and their market identification codes (MIC).**
 
 ## About
 
-This repo contains the unadjustet ~~, as well as an adjustet,~~ list of all
-registered exchanges, trading platforms, regulated or non-regulated markets and
-trade reporting facilities, created, maintained and published by the ISO in ISO
-10383.
+This repo contains files in different formats of all registered exchanges,
+trading platforms, regulated or non-regulated markets and trade reporting
+facilities, created, maintained and published by the ISO in ISO 10383.
 
 The official site is [https://www.iso20022.org/10383/iso-10383-market-identifier-codes](https://www.iso20022.org/10383/iso-10383-market-identifier-codes).
 
 ## Usage
 
-There are two main files:
-- /latest.csv - Latest list in CSV format [Browse](latest.csv) | [Raw](https://raw.githubusercontent.com/GreinaHQ/exchanges/master/latest.csv)
-- ~~/latest-adj.csv - Latest list, adjusted to our own preference in CSV
-  format~~
+There are three main files:
+- /latest.csv - Latest, unadjusted list in CSV format [Browse](latest.csv) |
+  [Raw](https://raw.githubusercontent.com/GreinaHQ/exchanges/master/latest.csv)
+- /latest-adj.csv - Latest list, adjusted to our own preferences in CSV format  [Browse](latest-adj.csv) |
+  [Raw](https://raw.githubusercontent.com/GreinaHQ/exchanges/master/latest-adj.csv)
+- /latest-adj.json - Latest list, adjusted to our own preferences in JSON format  [Browse](latest-adj.json) |
+  [Raw](https://raw.githubusercontent.com/GreinaHQ/exchanges/master/latest-adj.json)
 
 They are updated with every new publication by the ISO 10383, therefor when you
 use them you can be sure that they contain the latest data.
 
-In /history is also the history of the exchanges list since the creation of this
-repo.
+In [/history](/history) is also the history of the exchanges list since the
+creation of this repository.
 
 ## Disclaimer
 
