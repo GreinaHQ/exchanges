@@ -1,10 +1,23 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
-  '@fast-csv/parse': 4.1.2
-  ramda: 0.27.0
-lockfileVersion: 5.1
+  '@fast-csv/parse':
+    specifier: ^4.3.6
+    version: 4.3.6
+  ramda:
+    specifier: ^0.27.0
+    version: 0.27.0
+
 packages:
-  /@fast-csv/parse/4.1.2:
+
+  /@fast-csv/parse@4.3.6:
+    resolution: {integrity: sha512-uRsLYksqpbDmWaSmzvJcuApSEe38+6NQZBUsuAyMZKqHxH0g1wcJgsKUvN3WC8tewaqFjBMMGrkHmC+T7k8LvA==}
     dependencies:
+      '@types/node': 14.18.54
       lodash.escaperegexp: 4.1.2
       lodash.groupby: 4.6.0
       lodash.isfunction: 3.0.9
@@ -12,36 +25,35 @@ packages:
       lodash.isundefined: 3.0.1
       lodash.uniq: 4.5.0
     dev: false
-    resolution:
-      integrity: sha512-GmgHo1EHB5/M2v3tAj83l77PxGCxxYvx0s/PoWM/fp5PrS8ECtX0THKsuJ0jO3+BkpaHhX3/UZFOBnfcEw1FkQ==
-  /lodash.escaperegexp/4.1.2:
+
+  /@types/node@14.18.54:
+    resolution: {integrity: sha512-uq7O52wvo2Lggsx1x21tKZgqkJpvwCseBBPtX/nKQfpVlEsLOb11zZ1CRsWUKvJF0+lzuA9jwvA7Pr2Wt7i3xw==}
     dev: false
-    resolution:
-      integrity: sha1-ZHYsSGGAglGKw99Mz11YhtriA0c=
-  /lodash.groupby/4.6.0:
+
+  /lodash.escaperegexp@4.1.2:
+    resolution: {integrity: sha512-TM9YBvyC84ZxE3rgfefxUWiQKLilstD6k7PTGt6wfbtXF8ixIJLOL3VYyV/z+ZiPLsVxAsKAFVwWlWeb2Y8Yyw==}
     dev: false
-    resolution:
-      integrity: sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=
-  /lodash.isfunction/3.0.9:
+
+  /lodash.groupby@4.6.0:
+    resolution: {integrity: sha512-5dcWxm23+VAoz+awKmBaiBvzox8+RqMgFhi7UvX9DHZr2HdxHXM/Wrf8cfKpsW37RNrvtPn6hSwNqurSILbmJw==}
     dev: false
-    resolution:
-      integrity: sha512-AirXNj15uRIMMPihnkInB4i3NHeb4iBtNg9WRWuK2o31S+ePwwNmDPaTL3o7dTJ+VXNZim7rFs4rxN4YU1oUJw==
-  /lodash.isnil/4.0.0:
+
+  /lodash.isfunction@3.0.9:
+    resolution: {integrity: sha512-AirXNj15uRIMMPihnkInB4i3NHeb4iBtNg9WRWuK2o31S+ePwwNmDPaTL3o7dTJ+VXNZim7rFs4rxN4YU1oUJw==}
     dev: false
-    resolution:
-      integrity: sha1-SeKM1VkBNFjIFMVHnTxmOiG/qmw=
-  /lodash.isundefined/3.0.1:
+
+  /lodash.isnil@4.0.0:
+    resolution: {integrity: sha512-up2Mzq3545mwVnMhTDMdfoG1OurpA/s5t88JmQX809eH3C8491iu2sfKhTfhQtKY78oPNhiaHJUpT/dUDAAtng==}
     dev: false
-    resolution:
-      integrity: sha1-I+89lTVWUgOmbO/VuDD4SJEa+0g=
-  /lodash.uniq/4.5.0:
+
+  /lodash.isundefined@3.0.1:
+    resolution: {integrity: sha512-MXB1is3s899/cD8jheYYE2V9qTHwKvt+npCwpD+1Sxm3Q3cECXCiYHjeHWXNwr6Q0SOBPrYUDxendrO6goVTEA==}
     dev: false
-    resolution:
-      integrity: sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
-  /ramda/0.27.0:
+
+  /lodash.uniq@4.5.0:
+    resolution: {integrity: sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==}
     dev: false
-    resolution:
-      integrity: sha512-pVzZdDpWwWqEVVLshWUHjNwuVP7SfcmPraYuqocJp1yo2U1R7P+5QAfDhdItkuoGqIBnBYrtPp7rEPqDn9HlZA==
-specifiers:
-  '@fast-csv/parse': ^4.1.2
-  ramda: ^0.27.0
+
+  /ramda@0.27.0:
+    resolution: {integrity: sha512-pVzZdDpWwWqEVVLshWUHjNwuVP7SfcmPraYuqocJp1yo2U1R7P+5QAfDhdItkuoGqIBnBYrtPp7rEPqDn9HlZA==}
+    dev: false
